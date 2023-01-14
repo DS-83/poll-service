@@ -71,6 +71,7 @@ func NewApp() *App {
 
 func (a *App) Run(port string) error {
 	// Init gin handler
+	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
 
 	// Set up http handlers

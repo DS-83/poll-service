@@ -322,3 +322,12 @@ time="2023-01-14T14:44:38+03:00" level=error msg="document not found" Correlatio
 time="2023-01-14T14:44:49+03:00" level=info msg="successfully unmarshal user input" Correlation-ID=fec0cfeda04a02b6f33b6f5da96d1b2e699115f1
 time="2023-01-14T14:44:49+03:00" level=debug msg="convert id string to ObjectId" Correlation-ID=fec0cfeda04a02b6f33b6f5da96d1b2e699115f1
 time="2023-01-14T14:44:49+03:00" level=debug msg="start request to db, poll id:63c29534257f0d1b01f2a097" Correlation-ID=fec0cfeda04a02b6f33b6f5da96d1b2e699115f1
+time="2023-01-14T15:39:33+03:00" level=info msg="successfully unmarshal user input" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=info msg="insert data in database complete" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=info msg="retirieving _id from InsertedID field complete" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=debug msg="created poll with id:63c2a285fafbf5090a169106" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=info msg="get poll from DB" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=debug msg="convert id string to ObjectId" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=debug msg="start request to db, poll id:63c2a285fafbf5090a169106" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=info msg="finish create poll" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747
+time="2023-01-14T15:39:33+03:00" level=info msg="successfuly created poll" Correlation-ID=3a7214e1e6448be8f8ded2237d98fe4c7aef6747

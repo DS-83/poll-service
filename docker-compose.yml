@@ -1,0 +1,31 @@
+services: 
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    container_name: "mongo-polls"
+    restart: always
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/0_init.js # init scripts
+    networks:
+      - rest-api-back
+
+
+
+  rest-polls:
+    build:
+      dockerfile: Dockerfile
+    container_name: "rest-polls"
+    restart: always
+    depends_on:
+      - mongo
+    ports:
+      - "8000:8000"
+    networks:
+      - rest-api-back
+
+
+networks:
+  rest-api-back:
+    driver: bridge
+    external: true

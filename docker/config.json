@@ -1,0 +1,16 @@
+{
+    "mongohost": "mongo-polls:27017",
+    "mongocred":{
+        "authmechanism": "SCRAM-SHA-256",
+		    "authsource":    "polls",
+		    "username":      "dev",
+		    "password":      "SuperSecretPassword"
+    },
+    "mongodb": "polls",
+    "logs":{
+        "path": "./logs",
+        "level": "error",
+        "pollslog_filename": "polls.log"
+    },
+    "app_port": 8000
+}
